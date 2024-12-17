@@ -1,0 +1,272 @@
+@media(max-width:1199.99px) {
+
+    /*  */
+    .container {
+        width: 100%;
+        max-width: 1140px;
+    }
+
+    .contact-main>.col-6:first-child {
+        width: 41.6666666667%;
+    }
+
+    .contact-main>.col-6:last-child {
+        width: 58.3333333333%;
+    }
+
+    #banner .container .row {
+        align-items: flex-start;
+    }
+}
+
+@media(max-width:991.99px) {
+
+    /*  */
+    .container {
+        width: 100%;
+        max-width: 960px;
+    }
+
+    #banner .container .row .col-7 {}
+
+    /* ,
+    #banner .container .row .col-5 {
+        width: 50%;
+    } */
+
+    .banner-txt span.subtitle {
+        margin-bottom: 8px;
+    }
+
+    .banner-img {
+        margin: 0;
+    }
+
+    .banner-txt h1 {
+        font-size: 42px;
+    }
+
+    .banner-txt h3 {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .banner-txt p.content {
+        max-width: 100%;
+        line-height: 26px;
+        font-size: 14px;
+    }
+
+    .follow-banner {
+        margin-top: 24px;
+    }
+
+    .follow-links a span {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+
+    }
+
+    .follow-links {
+        margin-top: 16px;
+    }
+
+    .heading-section h2 {
+        font-size: 36px;
+        color: rgb(61 63 66 / 90%);
+        line-height: 42px;
+    }
+
+    .project-box .row .col-4 {
+        width: 50%;
+    }
+
+    .contact-main>.col-6:first-child {
+        width: 50%;
+    }
+
+    .contact-main>.col-6:last-child {
+        width: 50%;
+    }
+
+    .contact-box .row .from-group.col-6 {
+        width: 100%;
+    }
+
+    .banner-img {
+        margin: 0;
+    }
+}
+
+@media(max-width:767.99px) {
+
+    /*  */
+    .container {
+        width: 100%;
+        max-width: 720px;
+    }
+
+    #banner .container .row {
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+
+    #banner .container .row .col-5,
+    #banner .container .row .col-7 {
+        width: 100%;
+    }
+
+    .banner-txt span.subtitle {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .banner-txt h1 {
+        font-size: 48px;
+        /* margin-bottom: 8px; */
+    }
+
+    .banner-txt h3 {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .banner-txt p.content {
+        max-width: 100%;
+        line-height: 28px;
+        font-size: 16px;
+    }
+
+    .follow-banner p {
+        font-size: 16px;
+    }
+
+    .follow-links {
+        margin-top: 24px;
+    }
+
+    .follow-links a span {
+        width: 45px;
+        height: 45px;
+        font-size: 17px;
+    }
+
+    .banner-img img {
+
+        max-height: 70vh;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    #banner {
+        padding: 116px 0 48px;
+    }
+
+    #footer .container,
+    #contact-us .container,
+    #projects .container {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .contact-main {
+        gap: 24px;
+    }
+
+    .contact-main>.col-6:first-child {
+        width: 100%;
+    }
+
+    .contact-main>.col-6:last-child {
+        width: 100%;
+    }
+
+    .map-box iframe {
+        min-height: 270px;
+        max-height: 270px;
+    }
+
+    .footer-txt p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:575.99px) {
+    .container {
+        width: 100%;
+        max-width: 540px;
+    }
+
+    /*  */
+    .menu_btn {
+        display: block;
+    }
+
+    .nav-manu ul {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overlay {
+        display: block;
+    }
+
+    .banner-txt span.subtitle {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .banner-txt h1 {
+        font-size: 36px;
+    }
+
+    .banner-txt h3 {
+        font-size: 24px;
+    }
+
+    .banner-txt p.content {
+        line-height: 24px;
+        font-size: 15px;
+    }
+
+    .follow-banner p {
+        font-size: 14px;
+    }
+
+    .follow-links a span {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .follow-links {
+        margin-top: 16px;
+    }
+
+    .heading-section h2 {
+        font-size: 32px;
+        color: rgb(61 63 66 / 90%);
+        line-height: normal;
+    }
+
+    .project-box .row .col-4 {
+        width: 100%;
+    }
+
+    .project-box {
+        margin-top: 16px;
+    }
+
+    .banner-txt {
+        text-align: center;
+    }
+
+    .follow-links {
+        justify-content: center;
+    }
+}
